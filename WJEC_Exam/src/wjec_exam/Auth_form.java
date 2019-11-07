@@ -7,7 +7,7 @@ package wjec_exam;
 
 /**
  *
- * @author Geraint
+ * @author Geraint Whitham
  */
 public class Auth_form extends javax.swing.JFrame {
 
