@@ -26,6 +26,17 @@ public class Example {
         d1.printBreed();
         d2.setBreed("Collie");
         d2.printBreed();
+        
+        Animal [] myAnimals = new Animal[6];
+        
+    
+        for(int i = 0; i<myAnimals.length; i+=2){
+            myAnimals[i] = new Dog();
+            myAnimals[i+1] = new Cat();
+        }
+        
+        System.out.println(myAnimals[3].makeNoise());
+        
     }
     
 }

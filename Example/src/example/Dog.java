@@ -9,7 +9,7 @@ package example;
  *
  * @author Geraint
  */
-public class Dog {
+public class Dog extends Animal{
     
     private int legs = 4;
     private String breed = "";
@@ -44,8 +44,8 @@ public class Dog {
         this.legs = legs;
     }
     
-    public void makeNoise(){
-        System.out.println("Woof");
+    public String makeNoise(){
+        return "Woof";
     }
 
     public int getEyes() {
