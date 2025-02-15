@@ -12,10 +12,12 @@ package example;
 public class Cat extends Animal{
     
     private String breed;
+    public static int countCats=0;
     
     public Cat(){
         breed = "manx";
         vertabrate = true;
+        countCats++;
     }
     
     public String getBreed(){

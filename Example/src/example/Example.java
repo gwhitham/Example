@@ -34,7 +34,7 @@ public class Example {
             myAnimals[i] = new Dog();
             myAnimals[i+1] = new Cat();
         }
-        
+        System.out.println(Cat.countCats);
         System.out.println(myAnimals[3].makeNoise());
         
     }
